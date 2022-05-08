@@ -1,0 +1,19 @@
+{
+  "name": "greenfruit",
+  "version": "0.2.0",
+  "license": "UNLICENSED",
+  "authors": ["Thai Le <ant.researcher2021@gmail.com>"],
+  "edition": "2022",
+
+  "scripts": {
+    "build": "asb",
+    "build:debug": "asb --target debug",
+    "test": "asp --nologo"
+  },
+  "dependencies": {
+    "near-sdk-as": "2.2.4"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
